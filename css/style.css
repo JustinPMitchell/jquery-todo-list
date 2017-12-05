@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+	margin: 50px 200px;
+}
+
+h1 {
+	border: 3px solid black;
+	margin: 5px auto;
+	text-align: left;
+	padding: 10px;
+}
+
+.to-do-list {
+	border: 3px solid black;
+	height: 400px;
+	overflow: scroll;
+}
+
+.input-box {
+	border: 3px solid black;
+	margin: 5px auto;
+	padding: 5px;
+}
+
+.trash {
+	width: 15px;
+	height: 15px;
+	float: right;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding: 5px 30px;
+	text-align: left;
+}
+
+form {
+	text-align: left;
+}
+
+.input-to-do {
+	border: 3px solid black;
+	padding: 3px;
+	width: 340px;
+}
+
+.submit-button {
+	float: right;
+	padding: 3px;
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	width: 60px;
+}

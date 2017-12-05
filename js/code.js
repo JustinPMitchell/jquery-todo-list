@@ -3,9 +3,7 @@ var current = 0;
 var trash = "./img/trashcan.png";
 var classTrash = "trash";
 
-// for(var i in localStorage) {
-//     console.log(localStorage[i]);
-// }
+//puts local storage back in
 console.log(localStorage.getItem("current"));
 for(var i = 0; i < localStorage.getItem("current"); i++) {
 	var newItem = localStorage.getItem("todo" + (i + 1));
